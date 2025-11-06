@@ -5,19 +5,19 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>GoodBoop — Neighborhood pet care you can trust</title>
   <meta name="description" content="Neighborhood pet care you can trust. Local, insured, enrichment-first dog walking and drop-ins in Concord Township, Mentor, Chardon and Painesville.">
-  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="icon" type="image/png" href="goodboop_logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <script src="form.js" defer></script>
 </head>
-<script src="assets/form.js"></script>
 <body>
   <!-- Header -->
   <header class="header">
     <div class="container header-inner">
       <div class="logo-wrap">
-        <img class="logo" src="assets/goodboop_logo.png" alt="GoodBoop logo">
+        <img class="logo" src="goodboop_logo.png" alt="GoodBoop logo">
         <div>
           <div style="font-weight:800;">GoodBoop</div>
           <div class="small">Neighborhood pet care you can trust</div>
@@ -42,7 +42,7 @@
     <div class="hero-bg"></div><div class="hero-overlay"></div>
     <div class="container">
       <h1>Trusted Local Pet Care</h1>
-      <p>Dependable care focused on your pets happiness & well-being.</p>
+      <p>Dependable care focused on your pets’ happiness & well-being.</p>
       <div class="hero-actions">
         <a class="btn btn-primary" href="https://www.timetopet.com/portal/goodboop/create-account" target="_blank" rel="noopener">New Client? Schedule Meet & Greet</a>
         <a class="btn btn-primary" href="https://www.timetopet.com/portal/goodboop" target="_blank" rel="noopener">Existing Client Login</a>
@@ -77,9 +77,6 @@
   <section class="section" id="services">
     <div class="container">
       <h2>Services & Pricing</h2>
-      <!--Removed temporarily
-	  <p class="small">Transparent, enrichment-first care. Custom plans available.</p>
-	  -->
       <div class="cards">
         <div class="card">
           <div style="display:flex;justify-content:space-between;align-items:center;">
@@ -87,12 +84,11 @@
           </div>
           <div class="list">
             <div class="list-item"></div>
-			<div class="list-item">• Leash walk & potty break</div>
+            <div class="list-item">• Leash walk & potty break</div>
             <div class="list-item">• Photo + visit summary</div>
-			<div class="list-item">• Water refresh upon return</div>
-			<!-- Enter additional Services to the list between div tags -->
-			<div class="list-item"> </div>
-			<div class="list-item"> </div>
+            <div class="list-item">• Water refresh upon return</div>
+            <div class="list-item"> </div>
+            <div class="list-item"> </div>
           </div>
           <div style="margin-top:14px"><a class="btn btn-primary" href="https://www.timetopet.com/portal/goodboop/create-account" target="_blank" rel="noopener">Book Meet & Greet</a></div>
         </div>
@@ -102,11 +98,10 @@
           </div>
           <div class="list">
             <div class="list-item"></div>
-			<div class="list-item">• Potty break & water refresh</div>
+            <div class="list-item">• Potty break & water refresh</div>
             <div class="list-item">• Playtime / brain games</div>
             <div class="list-item">• Photo + Visit Summary</div>
-			<!-- Enter additional Services to the list between div tags -->
-			<div class="list-item"> </div>
+            <div class="list-item"> </div>
           </div>
           <div style="margin-top:14px"><a class="btn btn-primary" href="https://www.timetopet.com/portal/goodboop/create-account" target="_blank" rel="noopener">Book Meet & Greet</a></div>
         </div>
@@ -116,11 +111,10 @@
           </div>
           <div class="list">
             <div class="list-item"></div>
-			<div class="list-item">• 3-Day: $86/wk OR 5-day: $144/wk </div>
+            <div class="list-item">• 3-Day: $86/wk OR 5-day: $144/wk </div>
             <div class="list-item">• Reserved weekday visits (walks or drop-ins)</div>
             <div class="list-item">• Built-in savings compared to single visits</div>
-			<!--<div class="list-item">• Priority scheduling during busy weeks</div>-->
-			<div class="list-item">• Simple weekly billing — no need to rebook</div>
+            <div class="list-item">• Simple weekly billing — no need to rebook</div>
           </div>
           <div style="margin-top:14px"><a class="btn btn-primary" href="https://www.timetopet.com/portal/goodboop/create-account" target="_blank" rel="noopener">Book Meet & Greet</a></div>
         </div>
@@ -134,8 +128,8 @@
       <div>
         <h2>Why GoodBoop?</h2>
         <div class="list">
-          <div class="list-item">• Local, owner‑operated service.</div>
-          <div class="list-item">• Enrichment‑forward visits for calmer, happier pets.</div>
+          <div class="list-item">• Local, owner-operated service.</div>
+          <div class="list-item">• Enrichment-forward visits for calmer, happier pets.</div>
           <div class="list-item">• Professional communication and insured care.</div>
         </div>
         <div style="margin-top:14px;display:flex;gap:.6rem;flex-wrap:wrap">
@@ -144,7 +138,7 @@
         </div>
       </div>
       <div>
-        <img src="assets/MinMac.jpg" alt="Dog getting a walk" style="border-radius:18px;width:70%;height:auto">
+        <img src="MinMac.jpg" alt="Dog getting a walk" style="border-radius:18px;width:70%;height:auto">
       </div>
     </div>
   </section>
@@ -163,7 +157,7 @@
         </div>
       </div>
       <div>
-        <img src="assets/ServiceAreaImage.png" alt="Neighborhood" style="border-radius:18px;width:100%;height:75%">
+        <img src="ServiceAreaImage.png" alt="Neighborhood" style="border-radius:18px;width:100%;height:75%">
       </div>
     </div>
   </section>
@@ -173,30 +167,28 @@
     <div class="container">
       <div class="cta">
         <h2 style="margin-top:0;color:#fff;">Schedule Your Meet & Greet</h2>
-        <p style="color:#f0f5f7;max-width:760px">All new clients begin with a short in‑person meet & greet so we can get to know your pup. A $20 deposit is required to reserve your appointment and is credited toward your first booking.</p>
+        <p style="color:#f0f5f7;max-width:760px">All new clients begin with a short in-person meet & greet so we can get to know your pup. A $20 deposit is required to reserve your appointment and is credited toward your first booking.</p>
         <a class="btn btn-primary" href="https://www.timetopet.com/portal/goodboop/create-account" target="_blank" rel="noopener" style="margin-top:8px;background:#fff;color:var(--steel);border-color:#fff">Book Meet & Greet</a>
       </div>
     </div>
   </section>
 
   <!-- About Me -->
-  <section class="section" id="faq">
+  <section class="section" id="about">
    <div class="container grid-2">
       <div>
         <h2>About the Owner</h2>
         <p class="small">Hi, I’m Courtney, the founder of GoodBoop. I’m a proud pet owner of two cats and two dogs, so I understand how important it is to find someone you can truly trust with your pets. </p>
-		<p class="small">My mission is to provide reliable, loving care that keeps pets happy and owners worry-free. Whether it’s daily walks or drop-in visits, I treat every animal as if they were my own with patience, consistency, and affection. </p>
-		<p class="small">When I’m not out caring for clients’ pets, I enjoy spending time with my own, exploring the outdoors, or relaxing at home with my family. If you’re looking for dependable, pet care you can feel good about, I’d love to meet you and your pets.</p>
-		<p class="small">Schedule your free Meet & Greet today.</p>
-		<br>
-		<br>
-		<h2><img src="assets/CPPS_Cert.jpg" alt="CPPS Certificate" style="width:30%;height:30%"></h2>
+        <p class="small">My mission is to provide reliable, loving care that keeps pets happy and owners worry-free. Whether it’s daily walks or drop-in visits, I treat every animal as if they were my own with patience, consistency, and affection. </p>
+        <p class="small">When I’m not out caring for clients’ pets, I enjoy spending time with my own, exploring the outdoors, or relaxing at home with my family. If you’re looking for dependable, pet care you can feel good about, I’d love to meet you and your pets.</p>
+        <p class="small">Schedule your free Meet & Greet today.</p>
+        <br><br>
+        <h2><img src="CPPS_Cert.jpg" alt="CPPS Certificate" style="width:30%;height:30%"></h2>
       </div>
       <div>
-        <img src="assets/Ruby.jpg" alt="About the Owner" style="border-radius:18px;width:100%;height:100%">
+        <img src="Ruby.jpg" alt="About the Owner" style="border-radius:18px;width:100%;height:100%">
       </div>
     </div>
-
   </section>
   
   <!-- FAQ -->
@@ -209,8 +201,8 @@
         <div class="card"><h3>How do I book?</h3><p class="small">All new clients begin with a short meet & greet scheduled through the Time To Pet app. A $20 deposit is required, credited toward your first booking. Click the "New Client" button to get started.</p></div>
         <div class="card"><h3>Which areas do you serve?</h3><p class="small">Concord Township, Mentor, Chardon, and Painesville. We focus our routes to stay punctual and maximize time with your pup.</p></div>
         <div class="card"><h3>Do you offer weekend/holiday care?</h3><p class="small">Yes—weekend visits are available! GoodBoop is closed on major holidays including Thanksgiving, Christmas Eve, and Christmas Day so our team can spend time with family!</p></div>
-        <div class="card"><h3>Do you stay overnight?</h3><p class="small">We offer Almost Overnight Care: extended evening and morning visits for pets who are comfortable sleeping alone, giving peace of mind without a full live‑in stay.</p></div>
-		<div class="card"><h3>Do you only house sit for dogs?</h3><p class="small">Nope! We love all pets — from cats and fish to most small household companions. If they’re part of your family, they’re part of ours.</p></div>
+        <div class="card"><h3>Do you stay overnight?</h3><p class="small">We offer Almost Overnight Care: extended evening and morning visits for pets who are comfortable sleeping alone, giving peace of mind without a full live-in stay.</p></div>
+        <div class="card"><h3>Do you only house sit for dogs?</h3><p class="small">Nope! We love all pets — from cats and fish to most small household companions. If they’re part of your family, they’re part of ours.</p></div>
       </div>
     </div>
   </section>
@@ -220,48 +212,4 @@
     <div class="container grid-2">
       <div>
         <h2>Get in touch</h2>
-        <p class="small">Questions or ready to book? Send a message—we’ll get back within one business day.</p>
-        <div class="list" style="margin-top:8px">
-          <div class="list-item"><a href="tel:+14402909669" aria-label="Call GoodBoop">• (440) 290-9669</div>
-		  <div class="list item"><a class="email" href="mailto:info@goodboop.com">• info@goodboop.com</a></div>
-        </div>
-      </div>
-      <div class="card">
-        <form action="https://formsubmit.co/info@goodboop.com" method="POST" class="form">
-          <div class="row">
-            <div>
-              <label>Name</label>
-              <input name="name" required placeholder="Your name">
-            </div>
-            <div>
-              <label>Email</label>
-              <input type="email" name="email" required placeholder="you@email.com">
-            </div>
-            <div>
-              <label>How can we help?</label>
-              <textarea name="message" rows="4" required placeholder="Tell us about your pup & dates"></textarea>
-            </div>
-            <button class="btn btn-primary" type="submit">Send</button>
-			<input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
-            <p class="small">By submitting, you agree to our friendly paw‑licy.</p>
-          </div>
-        </form>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container" style="display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap">
-      <div class="logo-wrap">
-        <img class="logo" src="assets/goodboop_logo.png" alt="GoodBoop logo small">
-        <div>
-          <div style="font-weight:700;">GoodBoop</div>
-          <div class="small">Concord Township • Mentor • Chardon • Painesville</div>
-        </div>
-      </div>
-      <div class="small">© 2025 GoodBoop. All rights reserved.</div>
-    </div>
-  </footer>
-</body>
-</html>
+        <p class="small">Questions or ready to book? S
